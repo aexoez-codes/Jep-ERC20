@@ -15,7 +15,7 @@ The ```Jep``` smart contract is an ERC20 token implementation using Solidity. Th
 
 1. Install dependencies using hardhat
    
-  ```npm install @openzeppelin/contracts```
+   ```npm install @openzeppelin/contracts```
 
 ## Usage
 
