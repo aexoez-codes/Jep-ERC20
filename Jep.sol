@@ -5,8 +5,8 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.3.0/contr
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.3.0/contracts/access/Ownable.sol";
 
 contract Jep is ERC20, Ownable {
-    constructor(uint256 initialSupply) ERC20("Jep", "UIL") {
-        _mint(msg.sender, initialSupply);
+    constructor() ERC20("Jep", "UIL") {
+        _mint(msg.sender, 100 * 10 ** decimals());
     }
 
     // Function to mint tokens
